@@ -72,11 +72,12 @@
   }
 }
 
+
 .container {
   width: 100%;
-  max-width: 2000px;
+  /* max-width: ; */
   height: 100vh;
-
+  /* margin: 0; */
   background: #000000;
   --gap: 5em;
   --line: 1px;
