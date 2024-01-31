@@ -5,6 +5,7 @@ export default function Home() {
     <main className="">
       {/* <Navbar /> */}
       <Hero/>
+      
     </main>
   );
 }
