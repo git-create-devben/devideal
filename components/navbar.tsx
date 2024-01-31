@@ -33,7 +33,7 @@ export default async function navbar() {
               </Link>
             </Button>
             <Button className="bg-white hover:bg-slate-100">
-              <Link href="/app/sign-up/page.tsx" className="text-black">
+              <Link href="/sign-up" className="text-black">
                 SignUp
               </Link>
             </Button>
