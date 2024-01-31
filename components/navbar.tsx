@@ -6,19 +6,15 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import Submit from "./submitIdeal";
 import { UserButton } from "./profile";
-import {
-  ClerkProvider,
-  SignedIn,
-  SignedOut,
-  RedirectToUserProfile,
-} from "@clerk/nextjs";
-import { AppProps } from "next/app";
-export default async function navbar({ Component, pageProps }: AppProps) {
+import { currentUser } from "@clerk/nextjs";
+export default async function navbar() {
   const menu = [
     { name: "browse Ideal", link: "/browse" },
     { name: "Questions", link: "/Questions" },
     { name: "portfolio", link: "/" },
   ];
+
+  const user = await currentUser();
 
   return (
     <React.Fragment>
@@ -34,19 +30,24 @@ export default async function navbar({ Component, pageProps }: AppProps) {
             ))}
             <Submit />
           </ul>
-          <div className="gap-4 flex">
-           
 
-            <Button className="bg-white hover:bg-slate-100">
-              <Link href="/signIn" className="text-black">
-                LogIn
-              </Link>
-            </Button>
-            <Button className="bg-white hover:bg-slate-100">
-              <Link href="/sign-up" className="text-black">
-                SignUp
-              </Link>
-            </Button>
+          {!user &&(
+            <div className="gap-4 flex">
+              <Button className="bg-white hover:bg-slate-100">
+                <Link href="/signIn" className="text-black">
+                  LogIn
+                </Link>
+              </Button>
+
+              <Button className="bg-white hover:bg-slate-100">
+                <Link href="/sign-up" className="text-black">
+                  SignUp
+                </Link>
+              </Button>
+            </div>
+          )
+        }
+          <div className="gap-4 flex">
             <UserButton />
             {/* <SignOut /> */}
           </div>

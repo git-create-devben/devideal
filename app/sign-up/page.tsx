@@ -150,24 +150,9 @@ export default function SignUpForm() {
            
             <p className="text-red-400 text-md font-extrabold"> {error}</p>
 
-            {/* <Button
-              variant="outline"
-              onClick={(e) => {
-              e.preventDefault();
-                toast("Event has been created", {
-                  description: "Sunday, December 03, 2023 at 9:00 AM",
-                  action: {
-                    label: "Undo",
-                    onClick: () => console.log("Undo"),
-                  },
-                });
-              }}
-            >
-              Show Toast
-            </Button> */}
+        
 
             {/* <div className="divider">OR</div> */}
-            {/* <button className="w-full h-[40px] border-0 rounded-md outline-none text-[#ffffff] cursor-pointer bg-[#115DFC]"><GButton/></button> */}
           </form>
         </>
       )}
