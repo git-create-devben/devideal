@@ -72,18 +72,19 @@
   * {
     @apply border-border;
   }
+  .role-design{
+    @apply text-[#ffff] p-3 border-[1px] rounded-md border-[#cccc] hover:border-[#ffffff] transition-all hover:border-2 cursor-pointer
+  }
   
 }
 
 body{
   font-family: "poppins", sans-serif;
+  /* width: 100%;
+  height: 100vh; */
 }
 
-.container {
-  width: 100%;
-  /* max-width: ; */
-  height: 100vh;
-  /* margin: 0; */
+.wind {
   background: #000000;
   --gap: 5em;
   --line: 1px;
@@ -102,7 +103,9 @@ body{
       var(--color) var(--gap)
     );
   background-size: var(--gap) var(--gap);
-}
+} 
+
+
 
 .logo_container {
   box-sizing: border-box;
@@ -128,4 +131,3 @@ body{
   background-color: #8B8E98;
   margin: 5px;
 }
-

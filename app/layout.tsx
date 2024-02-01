@@ -3,9 +3,7 @@ import {  Poppins } from "next/font/google";
 import "../styles/globals.css";
 import Navbar from "@/components/navbar";
 import { ClerkProvider } from "@clerk/nextjs";
-import { Toaster } from "@/components/ui/sonner"
-
-
+import { Toaster } from "sonner";
 
 
 const poppins = Poppins({
@@ -26,7 +24,8 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en">
-        <body className={`${poppins.className} container`}>
+        <body className={`${poppins.className} wind`}>
+        
           <Navbar/>
           {children}
           <Toaster />

@@ -6,7 +6,7 @@ export function Logo() {
       <div className="text-[#ffff] text-4xl font-extrabold">
         <Link href={"/"}>
         <span className="underline">
-          D <b className="text-4xl font-extrabold">.</b>
+          D.
         </span>
         </Link>       
       </div>
