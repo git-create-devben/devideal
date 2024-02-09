@@ -73,7 +73,7 @@
     @apply border-border;
   }
   .role-design{
-    @apply text-[#ffff] p-3 border-[1px] rounded-md border-[#cccc] hover:border-[#ffffff] transition-all hover:border-2 cursor-pointer
+    @apply flex justify-between items-center text-[#ffff] p-3 border-[1px] rounded-md border-[#cccc] hover:border-[#ffffff] transition-all hover:border-2 cursor-pointer
   }
   
 }

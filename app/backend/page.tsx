@@ -1,5 +1,4 @@
 import React from "react";
-import "./frontend.css";
 import data from "./json/beginner.json";
 import data2 from "./json/intern.json";
 import data3 from "./json/nerd.json";
@@ -28,16 +27,16 @@ interface NerdData {
   nerd: Novice[];
 }
 
-const Frontend = () => {
+const Backend = () => {
   const { novice } = data as unknown as NoviceData;
   const { intern } = data2 as unknown as InternData;
   const { nerd } = data3 as unknown as NerdData;
   return (
     <React.Fragment>
       <div className="bg-white  flex flex-col py-10 items-center space-y-5">
-        <h1 className="text-black lg:text-5xl text-4xl">Frontend Developer</h1>
+        <h1 className="text-black lg:text-5xl text-4xl">Backend Developer</h1>
         <p className="text-[#111111] text-center">
-          Step by step project guide to becoming high fashion Frontend in 2024
+          Step by step project guide to becoming high fashion Backend in 2024
         </p>
       </div>
       <section className="flex flex-col items-center justify-center mt-10">
@@ -267,4 +266,4 @@ const Frontend = () => {
   );
 };
 
-export default Frontend;
+export default Backend;

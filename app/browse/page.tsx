@@ -22,7 +22,7 @@ const BrowseIdea = async () => {
         <h1 className="text-black lg:text-5xl text-4xl">Developer Project Idea</h1>
         <p className="text-[#111111] text-center">
           Step by step guides to build different project base on different
-          P'languages
+          P &apos; languages
         </p>
       </div>
       <section className="grid lg:grid-cols-2 gap-6 px-8 mt-28 lg:px-80">

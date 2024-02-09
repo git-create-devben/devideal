@@ -1,0 +1,53 @@
+{
+    "novice": [
+      {
+        "title": "Responsive Landing Page ",
+        "desc": " Design and code a landing page for a fictional product or service. Focus on making it responsive so it looks good on various devices and screen sizes. This project emphasizes responsive design principles and CSS media queries.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https//:freecodecamp.org"
+          }
+        ],
+        "resources": [
+          {
+            "name": "Responsive Landing Page HTML CSS",
+            "url": "https://youtu.be/_rWKTxvTUzQ?si=Rn3k6eWAfWZQDyHa"
+          },
+          {
+            "name": "Basic Minimalist Gym Website Design ",
+            "url": "https://www.figma.com/file/7Oqj21toNwh9F9Qsjz5PuE/Basic-Minimalist-Gym-Website-Design-(Community)?type=design&mode=design&t=7IzIo0PkgQ6VKL3t-1"
+          }
+        ]
+      },
+      {
+        "title": "Simple Blog",
+        "desc": "Create a blog platform where users can read and write blog posts. This project involves building a user interface for creating, reading, updating, and deleting blog posts, which reinforces CRUD (Create, Read, Update, Delete) operations.Create a blog platform where users can read and write blog posts. This project involves building a user interface for creating, reading, updating, and deleting blog posts, which reinforces CRUD (Create, Read, Update, Delete) operations.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https//:freecodecamp.org"
+          }
+        ],
+        "resources": [
+          {
+            "name": "How To Create A Blog Section Using HTML and CSS",
+            "url": "https://youtu.be/WVOmmc0UTiM?si=Zil7iUijrP1wzRG4"
+          },
+          {
+            "name": "Blog Page Website - Imaji Coffee Website",
+            "url": "https://www.figma.com/community/file/1241644495906402564/blog-page-website-imaji-coffee-website"
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,7 +1,7 @@
 {
   "novice": [
     {
-      "title": "Landing Page ",
+      "title": "Responsive Landing Page ",
       "desc": " Design and code a landing page for a fictional product or service. Focus on making it responsive so it looks good on various devices and screen sizes. This project emphasizes responsive design principles and CSS media queries.",
       "tools": [
         {
