@@ -1,24 +1,12 @@
 import Link from "next/link";
 import { auth, currentUser } from "@clerk/nextjs";
 import { Badge } from "@/components/ui/badge";
+// ? role is role based project data
+import { role } from "./data";
 
 export async function Role() {
   const { userId } = auth();
   const user = await currentUser();
-
-  //  role array
-  const role = [
-    { name: "Frontend", href: "/frontend", a: "/signIn" },
-    { name: "Backend", href: "/backend", new: "new" },
-    { name: "FullStack", href: "/fullstack", new: "new" },
-    { name: "Android", href: "/android", new: "new" },
-    { name: "Technical Writer", href: "/TechnicalWriter", new: "new" },
-    { name: "IOS", href: "/ios", new: "new" },
-    // { name: "UI Design", href: "/frontend" },
-    // { name: "Quality Assurance", href: "/frontend" },
-    // { name: "Cyber Security", href: "/frontend" },
-    // { name: "UX Design", href: "/frontend" },
-  ];
   return (
     <>
       <main className="">

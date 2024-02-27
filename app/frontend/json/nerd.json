@@ -49,6 +49,74 @@
               "url" : "https://www.figma.com/community/file/1241644495906402564/blog-page-website-imaji-coffee-website"
           }
         ]
+      },
+      {
+        "title": "Real-time Chat Application",
+        "desc": "Develop a real-time chat application similar to a messaging platform. This project challenges you to implement functionalities like user authentication, real-time messaging using WebSockets or similar technologies, and managing user presence and messages. It allows you to explore advanced concepts like server-side programming, websockets, and scalability.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Real-time Chat App with WebSockets",
+            "url": "https://www.valentinog.com/blog/build-a-real-time-chat-app-with-websockets/"
+          },
+          {
+            "name": "Real-time Chat Application with Node.js and Socket.io",
+            "url": "https://www.youtube.com/watch?v=t385_ueq-30"
+          }
+        ]
+      },
+      {
+        "title": "E-commerce Platform",
+        "desc": "Develop a functional e-commerce platform allowing users to browse products, add them to carts, and checkout securely. This project involves implementing functionalities like product management, shopping cart, payment processing (integration with payment APIs), user accounts, and order management. It allows you to utilize advanced concepts like databases, backend development, secure payment systems, and API integrations.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/"
+          },
+          {
+            "lang": "database (e.g., MySQL, PostgreSQL)",
+            "url": "https://www.mysql.com/"
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build an E-commerce Website with Node.js, Express, and MongoDB",
+            "url": "https://www.codecademy.com/learn/build-an-e-commerce-website"
+          },
+          {
+            "name": "E-commerce Platform Development Tutorial",
+            "url": "https://www.youtube.com/watch?v=fqnJ48p-8JE"
+          }
+        ]
       }
     ]
   }

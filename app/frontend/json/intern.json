@@ -49,6 +49,222 @@
               "url" : "https://www.figma.com/community/file/1241644495906402564/blog-page-website-imaji-coffee-website"
           }
         ]
+      },
+      {
+        "title": "Single-page Portfolio",
+        "desc": "Design and develop a single-page portfolio website to showcase your skills and experience. This project focuses on building a visually appealing and interactive website using HTML, CSS, and JavaScript. It allows you to practice your front-end development skills and explore basic functionalities like animations and transitions.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Modern Single-Page Portfolio Website",
+            "url": "https://www.youtube.com/watch?v=28L83Z5qZ90"
+          },
+          {
+            "name": "Single-Page Portfolio Website Inspiration",
+            "url": "https://www.awwwards.com/websites/single-page"
+          }
+        ]
+      },
+      {
+        "title": "To-Do List App",
+        "desc": "Build a web application that allows users to create, manage, and mark to-do items. This project introduces basic functionalities of web development like user interaction, data storage (using local storage or a simple database), and task management. It helps you practice essential web development skills and understand the fundamentals of building interactive applications.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a To-Do List App with JavaScript",
+            "url": "https://www.youtube.com/watch?v=Juu1R244hRE"
+          },
+          {
+            "name": "To-Do List App Tutorial",
+            "url": "https://www.freecodecamp.org/news/build-a-to-do-list-app-with-vanilla-javascript/"
+          }
+        ]
+      },
+      {
+        "title": "Interactive Blog with Comments",
+        "desc": "Develop a blog platform where users can read blog posts and leave comments. This project allows you to practice user authentication, user-generated content management, and potentially API integrations for comments (e.g., Disqus).",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/" 
+          },
+          {
+            "lang": "database (e.g., MySQL, PostgreSQL)",
+            "url": "https://www.mysql.com/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Blog with User Authentication and Comments",
+            "url": "https://www.youtube.com/watch?v=hQAQ8K8jA_0"
+          },
+          {
+            "name": "User Authentication with Node.js and JWT",
+            "url": "https://www.youtube.com/watch?v=t8PKyOqJk9s"
+          }
+        ]
+      },
+      {
+        "title": "Weather App with Real-time Updates",
+        "desc": "Enhance your existing weather app to display real-time weather updates using WebSockets or server-sent events. This project introduces real-time data communication techniques and allows you to explore advanced front-end functionalities.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "backend language (optional, for server-sent events)",
+            "url": "https://nodejs.org/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Real-time Weather App with WebSockets",
+            "url": "https://www.youtube.com/watch?v=t385_ueq-30"
+          },
+          {
+            "name": "WebSockets Tutorial",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSocket"
+          }
+        ]
+      },
+      {
+        "title": "Content Management System (CMS) - Basic",
+        "desc": "Develop a basic CMS allowing users to create and edit website content (e.g., blog posts, pages). This project introduces content management functionalities and explores user roles and permissions.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/" 
+                    },
+          {
+            "lang": "database (e.g., MySQL, PostgreSQL)",
+            "url": "https://www.mysql.com/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Simple CMS with Node.js and Express",
+            "url": "https://www.youtube.com/watch?v=fqnJ48p-8JE"
+          },
+          {
+            "name": "Content Management System (CMS) Fundamentals",
+            "url": "https://www.cms.org/what-is-a-cms/"
+          }
+        ]
+      },
+      {
+        "title": "RESTful API with CRUD Operations",
+        "desc": "Develop a RESTful API that implements CRUD (Create, Read, Update, Delete) operations for managing data. This project introduces RESTful API design principles and allows you to explore server-side functionalities and data handling.",
+        "tools": [
+          {
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/" 
+          },
+          {
+            "lang": "database (e.g., MySQL, PostgreSQL)",
+            "url": "https://www.mysql.com/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a RESTful API with Node.js and Express",
+            "url": "https://www.youtube.com/watch?v=pl5-930jw9Y"
+          },
+          {
+            "name": "RESTful API Design Tutorial",
+            "url": "https://restfulapi.net/tutorial/"
+          }
+        ]
+      },
+      {
+        "title": "Single-Page Application (SPA) with a Framework (e.g., React, Vue.js)",
+        "desc": "Develop a single-page application using a front-end framework like React or Vue.js. This project allows you to learn about component-based architecture, state management, and building dynamic and interactive user interfaces.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "front-end framework (e.g., React, Vue.js)",
+            "url": "https://reactjs.org/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Todo List App with React",
+            "url": "https://www.youtube.com/watch?v=u85b9BVjICE"
+          },
+          {
+            "name": "Learn React Fundamentals",
+            "url": "https://reactjs.org/tutorial/tutorial.html"
+          }
+        ]
       }
     ]
   }
