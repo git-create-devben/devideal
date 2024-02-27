@@ -117,6 +117,214 @@
             "url": "https://www.youtube.com/watch?v=fqnJ48p-8JE"
           }
         ]
+      },
+      {
+        "title": "Real-time Collaborative Drawing App",
+        "desc": "Develop a real-time collaborative drawing app where multiple users can draw and edit together simultaneously. This project requires expertise in real-time communication protocols (e.g., WebSockets) and server-side event handling while managing multiple user interactions.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/"
+          },
+          {
+            "lang": "JavaScript library (optional, for advanced features)",
+            "url": "https://www.fabricjs.com/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Real-time Collaborative Drawing App with Socket.io and Fabric.js",
+            "url": "https://www.youtube.com/watch?v=fJb_7HT9Ado"
+          },
+          {
+            "name": "WebSockets Tutorial",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSocket"
+          }
+        ]
+      },
+      {
+        "title": "Content Management System (CMS) with Advanced Features",
+        "desc": "Develop a comprehensive CMS that allows users to manage various content types (e.g., blog posts, pages, images, galleries), user roles and permissions, and potentially integrations with third-party services. This project necessitates strong understanding of back-end development, database management, and security considerations.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css frameworks (optional, for advanced UI)",
+            "url": "https://getbootstrap.com/" 
+          },
+          {
+            "lang": "javascript (optional, for advanced features)",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/" 
+          },
+          {
+            "lang": "database (e.g., MySQL, PostgreSQL)",
+            "url": "https://www.mysql.com/" 
+          },
+          {
+            "lang": "CMS framework (optional, for faster development)",
+            "url": "https://www.drupal.org/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Custom CMS with Node.js, Express, and MongoDB",
+            "url": "https://www.youtube.com/watch?v=plurh6Y33A4"
+          },
+          {
+            "name": "Content Management System (CMS) Security Best Practices",
+            "url": "https://www.owasp.org/index.php/Category:CMS"
+          }
+        ]
+      },
+      {
+        "title": "Single-Page Application (SPA) with Server-side Rendering (SSR)",
+        "desc": "Develop a single-page application that utilizes server-side rendering to improve initial page load performance and SEO. This project requires understanding of front-end frameworks (e.g., React, Vue.js) and back-end frameworks (e.g., Next.js, Nuxt.js) that enable SSR.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "front-end framework (e.g., React, Vue.js)",
+            "url": "https://reactjs.org/"
+          },
+          {
+            "lang": "backend framework (e.g., Next.js, Nuxt.js)",
+            "url": "https://nextjs.org/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Blog App with Next.js and React",
+            "url": "https://www.youtube.com/watch?v=2iF2zyYOMns"
+          },
+          {
+            "name": "Server-side Rendering (SSR) with React",
+            "url": "https://reactjs.org/docs/rendering-on-the-server.html"
+          }
+        ]
+      },
+      {
+        "title": "Progressive Web App (PWA)",
+        "desc": "Develop a web application that utilizes features like service workers and push notifications to provide a user experience similar to native mobile apps. This project requires understanding of workbox (or similar library) and potentially integrating with frameworks like Workbox for efficient PWA development.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "javascript library (e.g., Workbox)",
+            "url": "https://developers.google.com/web/tools/workbox/"
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a PWA with React and Workbox",
+            "url": "https://www.youtube.com/watch?v=hQb3t94tO_Q"
+          },
+          {
+            "name": "Progressive Web App (PWA) Checklist",
+            "url": "https://developers.google.com/web/progressive-web-apps/checklist/"
+          }
+        ]
+      },
+      {
+        "title": "Real-time Data Visualization Dashboard",
+        "desc": "Develop a real-time dashboard that displays and visualizes data from various sources (e.g., APIs, sensors) in real-time. This project requires strong understanding of data visualization libraries (e.g., D3.js, Chart.js) and integration with real-time communication protocols (e.g., WebSockets).",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "javascript library (e.g., D3.js, Chart.js)",
+            "url": "https://d3js.org/" 
+          },
+          {
+            "lang": "backend language (optional, for data fetching)",
+            "url": "https://nodejs.org/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Real-time Stock Market Dashboard with D3.js",
+            "url": "https://www.youtube.com/watch?v=LKFUfIBPV_s"
+          },
+          {
+            "name": "Data Visualization with D3.js",
+            "url": "https://d3js.org/doc/"
+          }
+        ]
+      },
+      {
+        "title": "Microservices Architecture with API Gateway",
+        "desc": "Develop a complex application using a microservices architecture, where functionalities are broken down into smaller, independent services. Implement an API gateway to manage communication and routing between these services. This project requires understanding of distributed systems, containerization (e.g., Docker), and API gateway technologies (e.g., Kong, Zuul).",
+        "tools": [
+          {
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/"
+          },
+          {
+            "lang": "containerization technology (e.g., Docker)",
+            "url": "https://www.docker.com/"
+          },
+          {
+            "lang": "API gateway (e.g., Kong, Zuul)",
+            "url": "https://konghq.com/"
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Microservices Architecture with Docker and Kong",
+            "url": "https://www.youtube.com/watch?v=t8TN07I45jo"
+          },
+          {
+            "name": "Microservices Architecture Tutorial",
+            "url": "https://martinfowler.com/articles/microservices.html"
+          }
+        ]
       }
     ]
   }

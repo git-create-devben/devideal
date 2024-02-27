@@ -235,7 +235,7 @@
         ]
       },
       {
-        "title": "Single-Page Application (SPA) with a Framework (e.g., React, Vue.js)",
+        "title": "Single-Page Application (SPA)",
         "desc": "Develop a single-page application using a front-end framework like React or Vue.js. This project allows you to learn about component-based architecture, state management, and building dynamic and interactive user interfaces.",
         "tools": [
           {
@@ -263,6 +263,110 @@
           {
             "name": "Learn React Fundamentals",
             "url": "https://reactjs.org/tutorial/tutorial.html"
+          }
+        ]
+      },
+      {
+        "title": "Online Code Editor",
+        "desc": "Develop a web-based code editor allowing users to write and edit code directly in the browser. This project challenges you to implement syntax highlighting, code completion, and other features associated with code editors.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "JavaScript library (optional, for advanced features)",
+            "url": "https://codemirror.net/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Simple Online Code Editor with CodeMirror",
+            "url": "https://www.youtube.com/watch?v=8P8RQY2tLf4"
+          },
+          {
+            "name": "CodeMirror Documentation",
+            "url": "https://codemirror.net/doc/"
+          }
+        ]
+      },
+      {
+        "title": "Social Media Clone (Limited Functionality)",
+        "desc": "Develop a basic social media clone with functionalities like creating profiles, posting content, and following other users. This project allows you to explore user authentication, data management, and potential real-time features (e.g., notifications).",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/" 
+          },
+          {
+            "lang": "database (e.g., MySQL, PostgreSQL)",
+            "url": "https://www.mysql.com/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a Social Media App with MERN Stack",
+            "url": "https://www.youtube.com/watch?v=u85b9BVjICE"
+          },
+          {
+            "name": "User Authentication with Node.js and JWT",
+            "url": "https://www.youtube.com/watch?v=t8PKyOqJk9s"
+          }
+        ]
+      },
+      {
+        "title": "Task Management Application",
+        "desc": "Develop a task management application that allows users to create, manage, and track their tasks. This project allows you to practice user authentication, data persistence (e.g., local storage, database), and user interface design for efficient task management.",
+        "tools": [
+          {
+            "lang": "html",
+            "url": "w3school.com"
+          },
+          {
+            "lang": "css",
+            "url": "https://www.freecodecamp.org"
+          },
+          {
+            "lang": "javascript",
+            "url": "https://www.javascript.com/"
+          },
+          {
+            "lang": "javascript framework (optional, for advanced features)",
+            "url": "https://reactjs.org/" 
+          },
+          {
+            "lang": "data storage (optional, for persistence)",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Storage" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a To-Do List App with React",
+            "url": "https://www.youtube.com/watch?v=u8_SD3Vj4q0"
+          },
+          {
+            "name": "Local Storage vs. Session Storage",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/API/Storage#localStorage_vs_sessionStorage"
           }
         ]
       }
