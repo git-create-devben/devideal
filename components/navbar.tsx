@@ -5,14 +5,14 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 import Submit from "./submitIdeal";
 import Settings from "./profiler";
-import { currentUser } from "@clerk/nextjs";
+import { auth, currentUser } from "@clerk/nextjs";
 export default async function navbar() {
   const menu = [
     { name: "browse Ideal", link: "/browse" },
     { name: "Questions", link: "/Questions" },
-    { name: "portfolio", link: "/" },
+    { name: "portfolio", link: "https://wallp.vercel.app" },
   ];
-
+  const { userId } = auth();
   const user = await currentUser();
 
 
@@ -60,7 +60,7 @@ export const MobileNav = () => {
   const menu = [
     { name: "browse Ideal", link: "/browse" },
     { name: "Questions", link: "/Questions" },
-    { name: "portfolio", link: "/" },
+    { name: "portfolio", link: "https://walpp.vercel.app" },
   ];
   return (
     <>

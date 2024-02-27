@@ -1,15 +1,20 @@
 "use client";
 
 import * as React from "react";
-import { useSignIn } from "@clerk/nextjs";
-import { useRouter } from "next/navigation";
+import { currentUser, useSignIn } from "@clerk/nextjs";
+import { useRouter, usePathname } from "next/navigation";
 
-export default function SignIn() {
+interface Props {
+  message: string;
+}
+
+export default function SignIn(props: Props) {
   const { isLoaded, signIn, setActive } = useSignIn();
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
   const router = useRouter();
-
+  const pathname = usePathname();
+  const istitle = pathname !== "/";
   // Handle the submission of the sign-in form
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -45,9 +50,13 @@ export default function SignIn() {
           <h2 className="text-2xl text-[#212121] font-extrabold">
             Welcome back
           </h2>
-          <p className="text-sm text-[#8B8E98]">
-            Log-In to continue experience DevIdeal
-          </p>
+     
+
+          {istitle && (
+            <p className="text-sm text-[#8B8E98]">
+              {props.message} Log-In to continue experience DevIdeal
+            </p>
+          )}
         </div>
       </div>
       <form onSubmit={(e) => handleSubmit(e)} className="mt-10 space-y-4">

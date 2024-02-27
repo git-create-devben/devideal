@@ -14,10 +14,10 @@ export async function Role() {
     { name: "Android", href: "/android", new: "new" },
     { name: "Technical Writer", href: "/TechnicalWriter", new: "new" },
     { name: "IOS", href: "/ios", new: "new" },
-    { name: "UI Design", href: "/frontend" },
-    { name: "Quality Assurance", href: "/frontend" },
-    { name: "Cyber Security", href: "/frontend" },
-    { name: "UX Design", href: "/frontend" },
+    // { name: "UI Design", href: "/frontend" },
+    // { name: "Quality Assurance", href: "/frontend" },
+    // { name: "Cyber Security", href: "/frontend" },
+    // { name: "UX Design", href: "/frontend" },
   ];
   return (
     <>
