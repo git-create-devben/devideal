@@ -1,50 +1,98 @@
 {
     "novice": [
       {
-        "title": "Responsive Landing Page ",
-        "desc": " Design and code a landing page for a fictional product or service. Focus on making it responsive so it looks good on various devices and screen sizes. This project emphasizes responsive design principles and CSS media queries.",
+        "title": "Simple REST API with CRUD Operations",
+        "desc": "Develop a basic REST API that implements CRUD (Create, Read, Update, Delete) operations for managing a data set (e.g., books, movies, users). This project introduces fundamental backend development concepts like API design, data handling, and server-side logic.",
         "tools": [
           {
-            "lang": "html",
-            "url": "w3school.com"
+            "lang": "backend language (e.g., Node.js, Python)",
+            "url": "https://nodejs.org/" 
           },
           {
-            "lang": "css",
-            "url": "https//:freecodecamp.org"
+            "lang": "framework (optional, for easier development)",
+            "url": "https://expressjs.com/" 
+          },
+          {
+            "lang": "database (e.g., MySQL, PostgreSQL, MongoDB)",
+            "url": "https://www.mysql.com/" 
           }
         ],
         "resources": [
           {
-            "name": "Responsive Landing Page HTML CSS",
-            "url": "https://youtu.be/_rWKTxvTUzQ?si=Rn3k6eWAfWZQDyHa"
+            "name": "Build a REST API with Node.js and Express",
+            "url": "https://www.youtube.com/watch?v=pl5-930jw9Y"
           },
           {
-            "name": "Basic Minimalist Gym Website Design ",
-            "url": "https://www.figma.com/file/7Oqj21toNwh9F9Qsjz5PuE/Basic-Minimalist-Gym-Website-Design-(Community)?type=design&mode=design&t=7IzIo0PkgQ6VKL3t-1"
+            "name": "RESTful API Design Tutorial",
+            "url": "https://restfulapi.net/tutorial/"
           }
         ]
       },
       {
-        "title": "Simple Blog",
-        "desc": "Create a blog platform where users can read and write blog posts. This project involves building a user interface for creating, reading, updating, and deleting blog posts, which reinforces CRUD (Create, Read, Update, Delete) operations.Create a blog platform where users can read and write blog posts. This project involves building a user interface for creating, reading, updating, and deleting blog posts, which reinforces CRUD (Create, Read, Update, Delete) operations.",
+        "title": "Simple Text-Based Game",
+        "desc": "Develop a simple text-based game (e.g., adventure, guessing game) using a backend language. This project introduces basic programming concepts like user input handling, conditional logic, and game mechanics implementation.",
         "tools": [
           {
-            "lang": "html",
-            "url": "w3school.com"
-          },
-          {
-            "lang": "css",
-            "url": "https//:freecodecamp.org"
+            "lang": "backend language (e.g., Python)",
+            "url": "https://www.python.org/"
           }
         ],
         "resources": [
           {
-            "name": "How To Create A Blog Section Using HTML and CSS",
-            "url": "https://youtu.be/WVOmmc0UTiM?si=Zil7iUijrP1wzRG4"
+            "name": "Python Tutorial for Beginners",
+            "url": "https://www.w3schools.com/python/python_programming_intro.asp"
           },
           {
-            "name": "Blog Page Website - Imaji Coffee Website",
-            "url": "https://www.figma.com/community/file/1241644495906402564/blog-page-website-imaji-coffee-website"
+            "name": "Build a Text-based Adventure Game in Python",
+            "url": "https://realpython.com/build-a-python-text-adventure-game/"
+          }
+        ]
+      },
+      {
+        "title": "Basic URL Shortener",
+        "desc": "Develop a backend service that shortens long URLs and redirects users to the original long URL when they access the shortened version. This project introduces concepts like database interaction (storing shortened URLs and their mappings) and handling HTTP requests/responses.",
+        "tools": [
+          {
+            "lang": "backend language (e.g., Node.js)",
+            "url": "https://nodejs.org/"
+          },
+          {
+            "lang": "database (e.g., MongoDB)",
+            "url": "https://www.mongodb.com/"
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a URL Shortener with Node.js and MongoDB",
+            "url": "https://www.youtube.com/watch?v=t8TN07I45jo"
+          },
+          {
+            "name": "Node.js and MongoDB Tutorial: Build an App",
+            "url": "https://www.mongodb.com/docs/tutorials/build-application/nodejs-express-mongodb/"
+          }
+        ]
+      },
+      {
+        "title": "Simple To-Do List API",
+        "desc": "Develop a REST API for a to-do list application. Users can create, read, update, and delete tasks through the API. This project reinforces CRUD operations and introduces basic API design principles.",
+        "tools": [
+          {
+            "lang": "backend language (e.g., Python, Java)",
+            "url": "https://www.python.org/" 
+          },
+          {
+            "lang": "framework (optional, for structured development)",
+            "url": "https://flask.palletsprojects.com/" 
+          }
+        ],
+        "resources": [
+          {
+            "name": "Build a To-Do List API with Flask",
+            "url": "https://www.youtube.com/watch?v=4lzFqdyXVAA"
+          },
+          {
+            "name": "RESTful API Design Tutorial",
+            "url": "https://restfulapi.net/tutorial/"
           }
         ]
       }

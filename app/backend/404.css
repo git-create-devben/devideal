@@ -1,0 +1,62 @@
+/* pages/404.css */
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  font-family: monospace;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.char {
+  position: absolute;
+  font-size: 16px;
+  animation: drop 1.5s linear infinite;
+}
+
+@keyframes drop {
+  from {
+    top: -100px;
+  }
+  to {
+    top: 100vh;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.code {
+  background-color: #222;
+  padding: 1rem;
+  border-radius: 5px;
+  overflow-x: auto;
+  font-size: 0.8rem;
+}
+
+.text-green-500 {
+  color: green; /* Adjust to your desired green color */
+}
+
+.font-bold {
+  font-weight: bold;
+}

@@ -1,18 +1,7 @@
 {
   "novice": [
     {
-      "title": "Landing Page ",
       "desc": " Design and code a landing page for a fictional product or service. Focus on making it responsive so it looks good on various devices and screen sizes. This project emphasizes responsive design principles and CSS media queries.",
-      "tools": [
-        {
-          "lang": "html",
-          "url": "w3school.com"
-        },
-        {
-          "lang": "css",
-          "url": "https//:freecodecamp.org"
-        }
-      ],
       "resources": [
         {
           "name": "Responsive Landing Page HTML CSS",
@@ -22,11 +11,8 @@
           "name": "Basic Minimalist Gym Website Design ",
           "url": "https://www.figma.com/file/7Oqj21toNwh9F9Qsjz5PuE/Basic-Minimalist-Gym-Website-Design-(Community)?type=design&mode=design&t=7IzIo0PkgQ6VKL3t-1"
         }
-      ]
-    },
-    {
-      "title": "Simple Blog",
-      "desc": "Create a blog platform where users can read and write blog posts. This project involves building a user interface for creating, reading, updating, and deleting blog posts, which reinforces CRUD (Create, Read, Update, Delete) operations.Create a blog platform where users can read and write blog posts. This project involves building a user interface for creating, reading, updating, and deleting blog posts, which reinforces CRUD (Create, Read, Update, Delete) operations.",
+      ],
+      "title": "Landing Page ",
       "tools": [
         {
           "lang": "html",
@@ -36,7 +22,10 @@
           "lang": "css",
           "url": "https//:freecodecamp.org"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Create a blog platform where users can read and write blog posts. This project involves building a user interface for creating, reading, updating, and deleting blog posts, which reinforces CRUD (Create, Read, Update, Delete) operations.Create a blog platform where users can read and write blog posts. This project involves building a user interface for creating, reading, updating, and deleting blog posts, which reinforces CRUD (Create, Read, Update, Delete) operations.",
       "resources": [
         {
           "name": "How To Create A Blog Section Using HTML and CSS",
@@ -46,11 +35,8 @@
           "name": "Blog Page Website - Imaji Coffee Website",
           "url": "https://www.figma.com/community/file/1241644495906402564/blog-page-website-imaji-coffee-website"
         }
-      ]
-    },
-    {
-      "title": "Personal Website",
-      "desc": "Create a simple website to introduce yourself or showcase your hobbies. This project focuses on the basics of HTML and CSS, allowing you to learn about page structure, formatting, and styling. It's a great way to build your confidence in web development and familiarize yourself with the fundamental building blocks.",
+      ],
+      "title": "Simple Blog",
       "tools": [
         {
           "lang": "html",
@@ -58,9 +44,12 @@
         },
         {
           "lang": "css",
-          "url": "https://www.freecodecamp.org"
+          "url": "https//:freecodecamp.org"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Create a simple website to introduce yourself or showcase your hobbies. This project focuses on the basics of HTML and CSS, allowing you to learn about page structure, formatting, and styling. It's a great way to build your confidence in web development and familiarize yourself with the fundamental building blocks.",
       "resources": [
         {
           "name": "Build Your First Website",
@@ -70,11 +59,8 @@
           "name": "Personal Portfolio Website Inspiration",
           "url": "https://www.awwwards.com/websites/personal"
         }
-      ]
-    },
-    {
-      "title": "Online Quiz",
-      "desc": "Develop a simple online quiz with multiple choice questions. This project helps you practice basic HTML, CSS, and JavaScript by creating an interactive interface for users to answer questions and receive feedback. It's a good way to learn about user interactions and explore basic functionalities in web development.",
+      ],
+      "title": "Personal Website",
       "tools": [
         {
           "lang": "html",
@@ -83,12 +69,11 @@
         {
           "lang": "css",
           "url": "https://www.freecodecamp.org"
-        },
-        {
-          "lang": "javascript",
-          "url": "https://www.javascript.com/"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Develop a simple online quiz with multiple choice questions. This project helps you practice basic HTML, CSS, and JavaScript by creating an interactive interface for users to answer questions and receive feedback. It's a good way to learn about user interactions and explore basic functionalities in web development.",
       "resources": [
         {
           "name": "Create a Simple Quiz with JavaScript",
@@ -98,11 +83,8 @@
           "name": "Build a Quiz App Tutorial",
           "url": "https://www.w3schools.com/howto/howto_js_quiz.asp"
         }
-      ]
-    },
-    {
-      "title": "Weather App",
-      "desc": "Develop a web application to display weather information for a specific location. This project introduces fetching data from APIs and displaying it in a user-friendly format.",
+      ],
+      "title": "Online Quiz",
       "tools": [
         {
           "lang": "html",
@@ -116,7 +98,10 @@
           "lang": "javascript",
           "url": "https://www.javascript.com/"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Develop a web application to display weather information for a specific location. This project introduces fetching data from APIs and displaying it in a user-friendly format.",
       "resources": [
         {
           "name": "Build a Weather App with JavaScript and OpenWeatherMap API",
@@ -126,11 +111,8 @@
           "name": "OpenWeatherMap API Documentation",
           "url": "https://openweathermap.org/api"
         }
-      ]
-    },
-    {
-      "title": "Simple Calculator",
-      "desc": "Create a web calculator that performs basic arithmetic operations. This project helps practice user interaction and basic JavaScript functionalities.",
+      ],
+      "title": "Weather App",
       "tools": [
         {
           "lang": "html",
@@ -144,7 +126,10 @@
           "lang": "javascript",
           "url": "https://www.javascript.com/"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Create a web calculator that performs basic arithmetic operations. This project helps practice user interaction and basic JavaScript functionalities.",
       "resources": [
         {
           "name": "Build a Calculator App with JavaScript",
@@ -154,11 +139,8 @@
           "name": "JavaScript Calculator Tutorial",
           "url": "https://www.w3schools.com/howto/howto_js_calculator.asp"
         }
-      ]
-    },
-    {
-      "title": "To-Do List with Local Storage",
-      "desc": "Develop a to-do list app that allows users to create and manage tasks. This project introduces local storage to persist tasks even after refreshing the page.",
+      ],
+      "title": "Simple Calculator",
       "tools": [
         {
           "lang": "html",
@@ -172,7 +154,10 @@
           "lang": "javascript",
           "url": "https://www.javascript.com/"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Develop a to-do list app that allows users to create and manage tasks. This project introduces local storage to persist tasks even after refreshing the page.",
       "resources": [
         {
           "name": "To-Do List App with Local Storage",
@@ -182,11 +167,8 @@
           "name": "Building a To-Do List with Local Storage - Tutorial",
           "url": "https://youtu.be/Jq60Y9q-31Y"
         }
-      ]
-    },
-    {
-      "title": "Responsive Menu",
-      "desc": "Design and implement a menu that adapts its layout and behavior based on the screen size (responsive design principles).",
+      ],
+      "title": "To-Do List with Local Storage",
       "tools": [
         {
           "lang": "html",
@@ -195,8 +177,15 @@
         {
           "lang": "css",
           "url": "https://www.freecodecamp.org"
+        },
+        {
+          "lang": "javascript",
+          "url": "https://www.javascript.com/"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Design and implement a menu that adapts its layout and behavior based on the screen size (responsive design principles).",
       "resources": [
         {
           "name": "Build a Responsive Navigation Menu with CSS",
@@ -206,21 +195,21 @@
           "name": "Responsive Web Design Fundamentals",
           "url": "https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Responsive_web_design"
         }
-      ]
-    },
-    {
-      "title": "Text-based Game (Tic-Tac-Toe)",
-      "desc": "Develop a simple text-based game like Tic-Tac-Toe. This project introduces game design and logic implementation using JavaScript.",
+      ],
+      "title": "Responsive Menu",
       "tools": [
         {
           "lang": "html",
           "url": "w3school.com"
         },
         {
-          "lang": "javascript",
-          "url": "https://www.javascript.com/"
+          "lang": "css",
+          "url": "https://www.freecodecamp.org"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Develop a simple text-based game like Tic-Tac-Toe. This project introduces game design and logic implementation using JavaScript.",
       "resources": [
         {
           "name": "Build a Tic-Tac-Toe Game with JavaScript",
@@ -230,25 +219,21 @@
           "name": "Tic-Tac-Toe Game Tutorial",
           "url": "https://www.w3schools.com/howto/howto_js_tictactoe.asp"
         }
-      ]
-    },
-    {
-      "title": "Unit Converter",
-      "desc": "Create a web application to convert values between different units (e.g., length, temperature, currency).",
+      ],
+      "title": "Text-based Game (Tic-Tac-Toe)",
       "tools": [
         {
           "lang": "html",
           "url": "w3school.com"
         },
         {
-          "lang": "css",
-          "url": "https://www.freecodecamp.org"
-        },
-        {
           "lang": "javascript",
           "url": "https://www.javascript.com/"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Create a web application to convert values between different units (e.g., length, temperature, currency).",
       "resources": [
         {
           "name": "Build a Unit Converter with JavaScript",
@@ -258,11 +243,8 @@
           "name": "JavaScript Unit Converter Tutorial",
           "url": "https://www.w3schools.com/howto/howto_js_converter.asp"
         }
-      ]
-    },
-    {
-      "title": "Simple Form Validation",
-      "desc": "Develop a basic form with validation (e.g., checking required fields). This project introduces front-end validation techniques using JavaScript.",
+      ],
+      "title": "Unit Converter",
       "tools": [
         {
           "lang": "html",
@@ -276,7 +258,10 @@
           "lang": "javascript",
           "url": "https://www.javascript.com/"
         }
-      ],
+      ]
+    },
+    {
+      "desc": "Develop a basic form with validation (e.g., checking required fields). This project introduces front-end validation techniques using JavaScript.",
       "resources": [
         {
           "name": "JavaScript Form Validation Tutorial",
@@ -286,11 +271,36 @@
           "name": "HTML Forms with JavaScript Validation",
           "url": "https://www.w3schools.com/js/js_form_validation.asp"
         }
+      ],
+      "title": "Simple Form Validation",
+      "tools": [
+        {
+          "lang": "html",
+          "url": "w3school.com"
+        },
+        {
+          "lang": "css",
+          "url": "https://www.freecodecamp.org"
+        },
+        {
+          "lang": "javascript",
+          "url": "https://www.javascript.com/"
+        }
       ]
     },
     {
-      "title": "Animated Landing Page",
       "desc": "Create a landing page with basic animations using CSS animations or JavaScript libraries (GSAP).",
+      "resources": [
+        {
+          "name": "Animate a Landing Page with CSS",
+          "url": "https://www.youtube.com/watch?v=DQt4l-oMqkc"
+        },
+        {
+          "name": "GSAP Animation Library Tutorial",
+          "url": "https://www.youtube.com/watch?v=ZXPQ3T4K8vw"
+        }
+      ],
+      "title": "Animated Landing Page",
       "tools": [
         {
           "lang": "html",
@@ -307,16 +317,6 @@
         {
           "lang": "GSAP library (optional)",
           "url": "https://greensock.com/gsap"
-        }
-      ],
-      "resources": [
-        {
-          "name": "Animate a Landing Page with CSS",
-          "url": "https://www.youtube.com/watch?v=DQt4l-oMqkc"
-        },
-        {
-          "name": "GSAP Animation Library Tutorial",
-          "url": "https://www.youtube.com/watch?v=ZXPQ3T4K8vw"
         }
       ]
     }
