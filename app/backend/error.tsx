@@ -30,8 +30,8 @@ export default function Error({
         <code className={`text-wrap ${codeText}`}>
           Error: Page not found. The requested URL /{window.location.pathname} was not found on this server.
         </code>
-      </pre>
-      <Link href="/" className="button">
+       </pre>
+       <Link href="/" className="button">
         Go back Home
       </Link>
     </div>
