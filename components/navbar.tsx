@@ -22,7 +22,7 @@ export default async function navbar() {
         <div className="flex h-7 gap-12 items-center justify-around">
           <Logo />
 
-          <ul className="gap-4 hidden md:flex lg:flex">
+          <ul className="gap-4 hidden md:flex lg:flex items-center">
             {menu.map((item) => (
               <li key={item.name} className="text-white hover:underline">
                 <Link href={item.link}>{item.name}</Link>

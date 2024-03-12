@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Navbar from "@/components/navbar";
 import { ClerkProvider } from "@clerk/nextjs";
 import { Toaster } from "sonner";
+import ConvexClientProvider from "./ConvexClientProvider";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -26,13 +27,14 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${poppins.className} wind`}>
+        <ConvexClientProvider>
           <div>
             <Navbar />
-            {children}
-            {auth}
-          
+           {children}
+            {auth}          
             <Toaster />
           </div>
+        </ConvexClientProvider>
         </body>
       </html>
     </ClerkProvider>
