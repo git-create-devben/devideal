@@ -27,14 +27,14 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${poppins.className} wind`}>
-        <ConvexClientProvider>
-          <div>
-            <Navbar />
-           {children}
-            {auth}          
-            <Toaster />
-          </div>
-        </ConvexClientProvider>
+          <ConvexClientProvider>
+            <div>
+              <Navbar />
+              {children}
+              {auth}
+              <Toaster />
+            </div>
+          </ConvexClientProvider>
         </body>
       </html>
     </ClerkProvider>

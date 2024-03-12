@@ -23,6 +23,7 @@
     "clsx": "^2.1.0",
     "convex": "^1.10.0",
     "eslint-plugin-tailwindcss": "^3.14.3",
+    "jg": "^0.0.0",
     "localforage": "^1.10.0",
     "lucide-react": "^0.316.0",
     "match-sorter": "^6.3.3",

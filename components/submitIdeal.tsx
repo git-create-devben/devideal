@@ -34,21 +34,22 @@ export default function Submit() {
   const handleTitleChange = (event: any) => {
     setTitle(event.target.value);
   };
-  const handleSelectChange = (event: any) => {
-    setSelectedValue(event.target.value);
+  const handleSelectChange = (value: string) => {
+    setSelectedValue(value);
   };
   const handleDescriptionChange = (event:any) => {
     setDescription(event.target.value);
   };
   const handleResourceChange = (event: any) => {
     setResources(event.target.value);
-  };
-
-  const handleSubmit = () =>{
+  }; 
+  const handleSubmit = (e: any) =>{
+    e.preventDefault()
     title
     Description
-    selectedValue
-    Resources
+    // selectedValue
+    // Resources
+    console.log({title, Description})
   }
   return (
     <Dialog>
@@ -71,7 +72,7 @@ export default function Submit() {
             </Link>
           </DialogDescription>
         </DialogHeader>
-        <form action="">
+        <form >
           <div className="grid gap-4 py-4">
             <div className="grid grid-cols-4 items-center gap-4">
               <Label htmlFor="name" className="text-right">
@@ -122,9 +123,7 @@ export default function Submit() {
               />
             </div>
           </div>
-          <DialogFooter>
-            <Button type="submit">Git push</Button>
-          </DialogFooter>
+            <Button type="submit" onClick={handleSubmit}>Git push</Button>
         </form>
       </DialogContent>
     </Dialog>

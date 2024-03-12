@@ -72,6 +72,7 @@ export const MobileNav = () => {
                 <Link href={item.link}>{item.name}</Link>
               </li>
             ))}
+              {/* <Submit/> */}
           </ul>
         </nav>
       </main>
