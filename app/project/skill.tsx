@@ -15,9 +15,9 @@ export async function Skill() {
          <div key={i} className="role-design cursor-not-allowed hover:border-none">
            {/* check if the user is sign up, if true redirect to role href else login */}
            {user ? (
-                <Link href={item.href} className="cursor-not-allowed">{item.name}</Link>
+                <Link href={''}  className="cursor-not-allowed">{item.name}</Link>
               ) : (
-                <Link href={item.a || item.href} className="cursor-not-allowed">{item.name}</Link>
+                <Link href={''} className="cursor-not-allowed">{item.name}</Link>
               )}
            {item.soon ? (
                 <Badge className="bg-blue-200 text-gray-700 hover:bg-blue-200">{item.soon}</Badge>

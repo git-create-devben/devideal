@@ -3,6 +3,7 @@
 import * as React from "react";
 import { currentUser, useSignIn } from "@clerk/nextjs";
 import { useRouter, usePathname } from "next/navigation";
+import { toast } from "sonner";
 
 interface Props {
   message: string;
@@ -35,7 +36,10 @@ export default function SignIn(props: Props) {
 
       if (completeSignIn.status === "complete") {
         await setActive({ session: completeSignIn.createdSessionId });
-        router.push("/");
+        toast("LogIn successfully", {
+          description: "You can close the modal and reload",
+        })
+        router.push("/browse");
       }
     } catch (err: any) {
       console.error(JSON.stringify(err, null, 2));

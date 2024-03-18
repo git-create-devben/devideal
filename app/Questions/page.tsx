@@ -9,17 +9,17 @@ const Questions = async () => {
   const roadmap = [
     {
       title: "Frontend Developer",
-      link: "/frontend",
+      // link: "/browse",
       questions: "20 Questions",
       topics: "9 topics",
-      new: "new",
+      new: "coming soon",
     },
     {
       title: "Backend Developer",
-      link: "/frontend",
+      // link: "/frontend",
       questions: "23 Questions",
       topics: "5 topics",
-      new: "new",
+      new: "Coming soon",
     },
   ];
   return (
@@ -38,7 +38,7 @@ const Questions = async () => {
             className="bg-white p-8 rounded-lg border-2 border-[#ffffff] hover:border-2 hover:border-black"
           >
             {user ? (
-              <Link href={item.link} className="flex justify-between items-center">
+              <Link href={''} className="flex justify-between items-center">
                 <div>
                   <h2 className="text-2xl font-extrabold">{item.title}</h2>
                   <div className="text-sm opacity-55 flex gap-2">
@@ -54,7 +54,7 @@ const Questions = async () => {
                 )}
               </Link>
             ) : (
-                <Link href={item.link} className="flex justify-between items-center">
+                <Link href={'/'} className="flex justify-between items-center">
                 <div>
                   <h2 className="text-2xl font-extrabold">{item.title}</h2>
                   <div className="text-sm opacity-55 flex gap-2">

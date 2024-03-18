@@ -61,6 +61,11 @@ export default function SignUpForm() {
       if (completeSignUp.status === "complete") {
         await setActive({ session: completeSignUp.createdSessionId });
         router.push("/");
+        toast("SignUp successfully", {
+          description: "You can close the modal and reload  the page. To avoid chunks",
+        }
+        
+        )
       }
     } catch (err: any) {
       console.error(JSON.stringify(err, null, 2));

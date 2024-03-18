@@ -1,20 +1,21 @@
 import Link from "next/link";
 import React from "react";
 import { auth, currentUser } from "@clerk/nextjs";
+import { Badge } from "@/components/ui/badge";
 
 
 const BrowseIdea = async () => {
   const { userId } = auth();
   const user = await currentUser();
   const roadmap = [
-    { title: "Frontend Developer", link: "/frontend" },
-    { title: "Backend Developer", link: "/backend" },
-    { title: "Android Developer", link: "/android" },
-    { title: "FullStack Developer", link: "/fullstack" },
-    { title: "Blockchain Developer", link: "/blockchain" },
-    { title: "JavaScript guide", link: "/javascript" },
-    { title: "React Developer", link: "/React" },
-    { title: "Python Developer", link: "/python" },
+    { title: "Frontend Developer", link: "/frontend", },
+    { title: "Backend Developer", link: "/browse", soon:"comming soon" },
+    { title: "Android Developer", link: "/browse",soon:"comming soon" },
+    { title: "FullStack Developer", link: "/browse", soon:"comming soon" },
+    { title: "Blockchain Developer", link: "/browse", soon:"comming soon" },
+    { title: "JavaScript guide", link: "/browse", soon:"comming soon" },
+    { title: "React Developer", link: "/browse", soon:"comming soon" },
+    { title: "Python Developer", link: "/browse", soon:"comming soon"},
   ];
   return (
     <React.Fragment>
@@ -36,6 +37,11 @@ const BrowseIdea = async () => {
                   Step by step project guide to becoming high fashion {item.title}{" "}
                   in 2024
                 </p>
+                {item.soon ? (
+                <Badge className="bg-blue-200 text-gray-700 hover:bg-blue-200 ">{item.soon}</Badge>
+              ) : (
+                <div></div>
+              )}
               </Link>
               )
               :
