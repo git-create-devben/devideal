@@ -5,11 +5,9 @@ import { currentUser, useSignIn } from "@clerk/nextjs";
 import { useRouter, usePathname } from "next/navigation";
 import { toast } from "sonner";
 
-interface Props {
-  message: string;
-}
 
-export default function SignIn(props: Props) {
+
+export default function SignIn() {
   const { isLoaded, signIn, setActive } = useSignIn();
   const [email, setEmail] = React.useState("");
   const [password, setPassword] = React.useState("");
@@ -58,7 +56,7 @@ export default function SignIn(props: Props) {
 
           {istitle && (
             <p className="text-sm text-[#8B8E98]">
-              {props.message} Log-In to continue experience DevIdeal
+               Log-In to continue experience DevIdeal
             </p>
           )}
         </div>

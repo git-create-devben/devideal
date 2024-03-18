@@ -8,7 +8,7 @@ const BrowseIdea = async () => {
   const { userId } = auth();
   const user = await currentUser();
   const roadmap = [
-    { title: "Frontend Developer", link: "/frontend", },
+    { title: "Frontend Developer", link: "/frontend" },
     { title: "Backend Developer", link: "/browse", soon:"comming soon" },
     { title: "Android Developer", link: "/browse",soon:"comming soon" },
     { title: "FullStack Developer", link: "/browse", soon:"comming soon" },

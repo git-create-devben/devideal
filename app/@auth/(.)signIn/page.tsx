@@ -19,7 +19,7 @@ export default function Page() {
     <>
       <Dialog open onOpenChange={handleClose}>
         <DialogContent className="sm:max-w-[425px]">
-            <SignIn message="You must "/>
+            <SignIn />
         </DialogContent>
       </Dialog>
     </>
